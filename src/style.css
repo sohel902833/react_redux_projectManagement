@@ -1,0 +1,26 @@
+/* team page styles */
+.member__list__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.member__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  padding-bottom: 7px;
+}
+
+.member__item button {
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.selectContainer {
+  width: 100%;
+  border: 1px solid #b6b6b6;
+}
